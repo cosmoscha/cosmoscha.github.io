@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/giantChia.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2282,7 +2282,8 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
+		z-index: 100;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -2290,6 +2291,7 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		background-color: rgb(27, 78, 7);
 	}
 
 		#nav > ul {
